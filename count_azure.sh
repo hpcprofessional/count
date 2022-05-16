@@ -1,9 +1,5 @@
 #!/bin/bash
-#The purpose of this file is to parse the output of Microsoft Azure All resources "Export to CSV" function
-# - It should be in the same directory as this script
-#
-#If you have multiple accounts, you can merge them all into a single CSV. 
-# - This script should do the right them for duplicated headers, SEP lines, etc.
+#Home: https://github.com/hpcprofessional/count
 
 FILENAME='Azureresources.csv'
 
