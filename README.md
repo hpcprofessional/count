@@ -1,10 +1,10 @@
 # count
-A quick way to count cloud resources
+A quick way to count cloud resources using bash
 Source: https://github.com/hpcprofessional/count
 
 ## Usage
 
-### Azure
+### Microsoft Azure
 
 1. Log in to Azure Portal
 2. Select "All Resources"
@@ -14,4 +14,14 @@ Source: https://github.com/hpcprofessional/count
 6. Run the count_azure.sh script. It will print output with the count of each resource type found
 
 Potential enhancement(s):
-1. So far, no examples of Azureresource.csv has varied in its headers. Adding code to account for this (via the FIELD variable) might be good to do someday.
+1. So far, no examples of Azureresources.csv has varied its separator. Adding code to account for this (via a new SEP variable) might be good to do someday.
+1. So far, no examples of Azureresources.csv has varied in its headers. Adding code to account for this (via the FIELD variable) might be good to do someday.
+
+### Google Cloud
+
+1. install glcoud utility
+2. Authenticate as appropriate ('gcloud auth login' perhaps?)
+3. Run the script
+
+Potential enhancements(s):
+None expected at this time
